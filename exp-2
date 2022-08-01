@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center;color:blue">Karunya Insititue of Technology and sciences</h1>
+    <hr>
+    <table width="100%">
+        <tr style="text-align:center;">
+            <td><a href="index.html">About us</a></td>
+            <td>|</td>
+            <td><a href="application.html">Admission</a></td>
+            <td>|</td>
+            <td><a href="calender.html">Acadamic calender</a></td>
+            <td>|</td>
+            <td>Search:<input type="search" placeholder="search here..."></td>
+        </tr>
+    </table>
+    <hr>
+    <img src="https://karunya.edu/sites/default/files/img/images/karunya-campus-view.jpg.pagespeed.ce.IyizWonRVf.jpg" width="100%" height="400px">
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <td>
+    
+            
+                <h4 class="line-height-4 mb-0 title-ft text-10 text-primary"> ABOUT US</h4>
+            
+            <p>We provide the best infrastructural facilities and a rich
+                learning experience to educate, engage and empower our students to be engineers,
+                technologists, scientists, artists, professionals, managers and leaders. Programmes
+                are offered in Engineering, Arts, Science, Media, Management & Health Sciences with
+                student-centred pedagogy.</p>
+        
+</td>
+            <td>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RVbC0Z7nbdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </td>
+           
+            
+        </tr>
+       
+    </table>
+    <hr>
+    
+<h3>Today's talk:</h3>
+        <audio src="music/My-Baby-Love-Your-Voice.mp3"controls>Audio</audio>
+        <hr>
+<table width="100%">
+    <tr>
+        <td width="50%">
+        <form>
+            <fieldset style="text-align:center;background-color: palevioletred;">
+                <legend>Sign In</legend>
+                username: <input type="text"><br><br><br>
+                password:<input type="password"><br><br><br>
+                <input type="submit" value="Log In">
+                
+            </fieldset>
+        </form>
+        </td>
+        <td width="50%">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61512.71994229008!2d79.99660405010819!3d15.508887700247735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b011c10366c03%3A0x6ee40296fd2dbcc5!2sOngole%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1658314222843!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </td>
+    </tr>
+</table> 
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Applicaion Form</title>
+        <style>
+            label{
+                width: 160px;
+                display: inline-block;
+                
+                
+            }
+        </style>
+    </head>
+    <body style="height:100%">
+        <h1 style="text-align:center;color:blue;">Karunya Institute of Technology and Sciences</h1>
+        <hr>
+        <table width="100%">
+            <tr style="text-align:center;">
+                <td><a href="index.html">About us </a></td>
+                <td>|</td>
+                <td><a href="second.html">Admission</a></td>
+                <td>|</td>
+                <td><a href="calendar.html">Acadamic calendar</a></td>
+                <td>|</td>
+                <td>search: <input type="search" placeholder="Search here..."></td>              
+    
+                </tr>
+        </table>
+    <fieldset><legend align="center" style="color: blue;">Application form</legend>
+    <table><tr><td  style="text-align:left;width:25%;padding-left: 35%;padding-right:25%;">
+        <form action="submit.php" method="post" autocomplete="on" style="color: blue; margin: auto; width: 500px;text-align: left;">
+            <label>Name:</label> <input type="text" name="name" required autofocus placeholder="Enter your name" ><br><br>
+            <label>Application Number:</label><input type="text" name="appno" required placeholder="Application number" pattern="[0-9 A-Z a-z]{13}" ><br><br>
+            <label>Password:</label><input type="password" name="paswd" required minlength="8" ><br><br>
+            <label>Date of Birth:</label><input type="date"  name="dob" style="width:165px"><br><br>
+            <label>Age:</label><input type="number" name="age" required><br><br>
+            <label>Mobile Number:</label><input type="number" placeholder="Enter Mobile Number" pattern="[0-9]{10}"><br><br>
+            <label>Email:</label><input type="email" name="mail" placeholder="Enter Email id" required><br><br>
+            <label>Gender:</label><input type="radio" name="gender" value="male"> Male<input type="radio" name="gender" value="female"> Female<br><br>
+            <label>Address:</label><textarea rows="4" type="text" name="address"></textarea><br><br>
+            <label>Languages Known:</label><input type="checkbox" name="hi[]">English<input type="checkbox" name="hi[]">Tamil<input type="checkbox" name="hi[]">Malayalam<input type="checkbox" name="hi[]">Telugu<input type="checkbox" name="hi[]">Hindi<br><br>
+            <label>Select youe Course:</label><select id="course" name="course">
+                <option value="CSE">B.Tech Computer Science Engineering</option>
+                <option value="CE">B.Tech Civil Engineering</option>
+                <option value="ME">B.Tech Mechanical Engineering</option>
+                <option value="EEE">B.Tech Electrical Engineering</option>
+                <option value="ASE">B.Tech Aero Space Engineering</option></select><br><br>
+            <label>Upload your Photo: </label><input type="file" id="photo" name="photo"><br><br>
+            <label></label><progress id="inp1" value="50" max="100"></progress><font style="color: blue;">&nbsp; 50% Uploading</font>
+            <label></label><input type="submit" value="Submit">
+        </form></td></tr></table>
+
+    </fieldset>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="height:100%">
+    <h1 style="text-align:center;color:blue;">karunya institute of technology and sciences</h1>
+    <hr>
+    <table width="100%">
+        <tr style="text-align:justify;">
+            <td><a href="home.html">About us </a></td>
+            <td>|</td>
+            <td><a href="application.html">Admission</a></td>
+            <td>|</td>
+            <td><a href="calendar.html">Acadamic calendar</a></td>
+            <td>|</td>
+            <td>search: <input type="search" placeholder="search here..."></td>
+            
+
+            </tr>
+    </table>
+    <hr>
+    <iframe src="https://www.karunya.edu/sites/default/files/img/calendar/calendar.pdf"width="100%" height="800"></iframe>
+</body>
+</html>
